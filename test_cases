@@ -1,0 +1,36 @@
+Test Cases:
+
+1) Adding new location.
+
+2) Adding existing location.
+
+3) Adding new location with common prefix with existing location.
+
+4) Adding locations with names not in Latin alphabets.
+
+5) Updating popularity for existing location.
+
+6) Updating popularity for non existing location.
+
+7) Deleting existing location.
+
+8) Deleting non existing location.
+
+9) Deleting location with a common prefix with another location. Subsequently searching the other location. 
+
+10) Searching existing location.
+
+11) Searching non existing location.
+
+12) Searching location using prefix.
+
+13) All addition, updation, and deletion corner cases for Tries.
+
+14) Using POST APIs using wrong credentials.
+
+15) Querying the database for autocomplete suggestions at a rate greater than the allowed rate limit.
+
+
+Testing was done using Postman and python scripts along with manually checking the database for consistency.
+
+All the above cases were handled along with appropriate HTTP response for each case. 
