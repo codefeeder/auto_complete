@@ -3,7 +3,7 @@ Auto Complete Functionality
 
 Features
 ----------------------
-1) Used Trie data structure for efficiently retrieving auto complete suggestions.
+1) Used Trie data structure for storing locations and efficiently retrieving auto complete suggestions.
 2) Implemented GET API for retrieving suggestions (Does not require authentication).
 3) Implemented POST APIs for adding location, deleting location, and updating popularity for existing location (All require Authentication).
 4) Wrote test cases.
