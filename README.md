@@ -10,7 +10,7 @@ Features
 
 Additional Features
 ----------------------
-1) Implemented Rate Limit to avoid excessive queries.
+1) Implemented Rate Limit using ratelimit library to avoid excessive queries.
 2) Implemented Cache for search query.
 3) Implemented Token based Authentication for Add, Delete, and Update APIs.
 4) Implemented automated script for authentication and adding all locations provided in the data file.
