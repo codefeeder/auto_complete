@@ -3,9 +3,9 @@ Auto Complete Functionality
 
 Features
 ----------------------
-1) Used Trie data structure for efficiently retrieving auto complete suggestion.
+1) Used Trie data structure for efficiently retrieving auto complete suggestions.
 2) Implemented GET API for retrieving suggestions (Does not require authentication).
-3) Implemented POST APIs for adding location, deleteing location, and updating popularity for existing location (All require Authentication).
+3) Implemented POST APIs for adding location, deleting location, and updating popularity for existing location (All require Authentication).
 4) Wrote test cases.
 
 Additional Features
@@ -13,7 +13,7 @@ Additional Features
 1) Implemented Rate Limit to avoid excessive queries.
 2) Implemented Cache for search query.
 3) Implemented Token based Authentication for Add, Delete, and Update APIs.
-4) Implemented and automated script for authentication and adding all locations provided in the data file.
+4) Implemented automated script for authentication and adding all locations provided in the data file.
 5) Created dockerfile for the application.
 
 Setup and Steps to use
