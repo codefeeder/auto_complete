@@ -14,7 +14,6 @@ Additional Features
 2) Implemented Cache for search query.
 3) Implemented Token based Authentication for Add, Delete, and Update APIs.
 4) Implemented automated script for authentication and adding all locations provided in the data file.
-5) Created dockerfile for the application.
 
 Setup and Steps to use
 -----------------------------
