@@ -49,7 +49,7 @@ def search(request):
 
             auto_complete_suggestions = []
             node_instance = LocationTrieDb.objects.get(pk='0')
-            print('hwllo')
+
             for i in range(len(node_instance.children)):
                 auto_complete_suggestions += search_helper(prefix=prefix,
                                                            node_id=node_instance.children[i],
