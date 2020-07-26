@@ -51,7 +51,7 @@ Setup and Steps to use
     
     ```$ curl --location --request POST '127.0.0.1:8000/api/login' --form 'username={username}' --form 'password={password}'```
    
- 8) ##### Run script for adding all locations in the data file to database
+ 8) ##### Run script for adding all locations in the data file to database (Update username and password in the file)
    
     ```$ python script_add_locations.py --file {data file}```
    
